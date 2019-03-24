@@ -7,6 +7,6 @@ body {
   background: url('../test.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: auto;
+  background-size: 100%;
   -o-background-size: cover;
 }
