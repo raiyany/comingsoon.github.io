@@ -75,7 +75,7 @@ p {
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 
-  opacity: 1; /* Firefox */
+  opacity: 1.5; /* Firefox */
   font-size: 1.5vw !important;
   font-weight: 100;
 }
