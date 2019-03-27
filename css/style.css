@@ -83,12 +83,14 @@ p {
 	 }
 
 .thoughts{ 
-	letter-spacing: 0.09em;
+  letter-spacing: 0.09em;
+  font-weight: 200 !important;
 	 }
 .soon{ 
-	letter-spacing: 0.9em;
+  letter-spacing: 0.9em;
+  font-weight: 200 !important;
 	 }
-.bottom {
+.footer {
     position: fixed;
     bottom: 0;
     left: 50%;
@@ -100,15 +102,18 @@ p {
     display: inline !important;
     font-size: 1.5vw !important;
     height: 9% !important;
+    background: transparent !important;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-
   opacity: 1.5; /* Firefox */
   font-size: 1.5vw !important;
   font-weight: 100;
+  color:white !important
 }
-button {
-	background: url(../email-icon.png) !important;
+a i {
+  color:white;
+  font-size: 3vw !important;
+    line-height: 2;
 }
 
 .btn-default{
@@ -116,7 +121,100 @@ button {
 	padding: 0px !important;
     vertical-align: middle !important;
 }
- i  {
-  font-size: 2.5vw !important;
-    line-height: 2;
-    }
+ 
+
+ /* ------info.html------ */
+
+/* Top left text */
+.left{
+  color: white;
+  float: left;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.right{
+  color: white;
+  float: right;
+}
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom left text */
+.bottomLt {
+  bottom: 0;
+  color: white;
+  float: left;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Bottom right text */
+.bottomRt {
+  bottom: 0;
+  color: white;
+  float: right;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottomCt {
+  bottom: 0;
+  color: white;
+  position: fixed;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.feature {
+  font-size: 2vw !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.description{
+  font-size: 1.0vw !important;
+  font-weight: 200;
+  color: #f1f1f1b8;
+  letter-spacing: 0.09em;
+}
+.notify{
+    /* padding: 10px 20px; */
+    font-size: 1.5vw;
+    background: white;
+    z-index: 1000;
+    height: 100%;
+    -webkit-transition: opacity 0.1s 0.5s;
+    transition: opacity 0.1s 0.5s;
+    background-color: #fff;
+    color: #000;
+    padding: 0.2em 1em;
+    border: none;
+    /* background-color: #e85657; */
+    /* color: #f9f6e5; */
+    letter-spacing: 0.09em;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: 200;
+}
